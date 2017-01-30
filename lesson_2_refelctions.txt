@@ -5,4 +5,12 @@ important for obvious reasons
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 the staging area is an extra layer of flexibility added to give the user more freedom by choosing
-which files to commit and which to leave out 
+which files to commit and which to leave out
+
+How can you use the staging area to make sure you have one commit per logical change?
+by always checking using git diff --staged what files are in there
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+branches are useful when you want to make changes to the code but you are not sure about them if
+they will work out just fine or not, so this way you can protect your working code and experiment however
+you like.
